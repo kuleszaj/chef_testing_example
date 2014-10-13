@@ -33,17 +33,21 @@ Test cookbook that sets up Apache2 with mod_rewrite.
 
  - `bundle install`
 
-### Chefspec tests
+### ChefSpec tests
 
  - `bundle exec rake spec`
 
 ### Test-Kitchen w/Serverspec tests on local vagrant
 
- - `bundle exec rake integration:vagrant`
+ - `bundle exec rake kitchen:all`
 
-### All tests (style, chefspec, test-kitchen, etc.)
+### Foodcritic linting
 
- - `bundle exec rake`
+ - `bundle exec rake foodcritic`
+
+### Rubocop linting
+
+ - `bundle exec rake rubocop`
 
 ## Usage
 
