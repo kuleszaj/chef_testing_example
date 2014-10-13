@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/kuleszaj/chef_testing_example.svg)](https://travis-ci.org/kuleszaj/chef_testing_example)
+
 # Chef Testing Example
 
 DevOps West Michigan
