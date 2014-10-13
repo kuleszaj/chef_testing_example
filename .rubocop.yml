@@ -1,0 +1,7 @@
+AllCops:
+  Exclude:
+    - bin/**/*
+    - vendor/**/*
+
+LineLength:
+  Max: 100

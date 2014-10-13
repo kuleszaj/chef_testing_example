@@ -1,0 +1,11 @@
+DEPENDENCIES
+  apt
+  build-essential
+  chef_testing_example
+    path: .
+    metadata: true
+
+GRAPH
+  apt (2.6.0)
+  build-essential (2.0.6)
+  chef_testing_example (0.1.0)
