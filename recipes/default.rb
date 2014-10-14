@@ -3,11 +3,11 @@
 # Cookbook Name:: chef_testing_example
 # Recipe:: default
 #
-#
+
 package 'apache2'
 
 service 'apache2' do
-  action [:start,:enable]
+  action [:start, :enable]
 end
 
 execute 'a2enmod rewrite' do
