@@ -79,6 +79,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     }
 
     chef.run_list = [
+      'recipe[apt]',
       'recipe[chef_testing_example::default]'
     ]
   end
